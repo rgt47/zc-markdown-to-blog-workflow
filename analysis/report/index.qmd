@@ -8,7 +8,7 @@ description: >
   A systematic workflow for converting standalone
   markdown documentation into professional blog posts
   using ZZCOLLAB symlinks and Quarto metadata.
-image: "media/images/hero.jpg"
+image: "media/images/hero.png"
 document-type: "blog"
 draft: false
 execute:
@@ -25,7 +25,7 @@ cluster-order: 3
 
 ![A workspace with documentation ready for
 conversion into a structured blog
-post](media/images/hero.jpg){.img-fluid
+post](media/images/hero.png){.img-fluid
 width=80% fig-align="center"}
 
 *Transforming standalone documentation into
@@ -149,7 +149,7 @@ Think of it as a translation layer: markdown content
 goes into the rrtools-standard location, and symlinks
 at the project root make Quarto believe the file is
 where it expects. Image paths like
-`media/images/hero.jpg` resolve correctly from both
+`media/images/hero.png` resolve correctly from both
 locations because symlinks exist in both directions.
 
 The workflow itself takes roughly 40 minutes from
@@ -226,7 +226,7 @@ data/    -> ../data/
 ```
 
 The dual-symlink design means that writing
-`![](media/images/hero.jpg)` in a blog post will
+`![](media/images/hero.png)` in a blog post will
 resolve correctly whether Quarto renders from the
 project root or the author previews from
 `analysis/paper/`.
@@ -255,7 +255,7 @@ author: "Your Name"
 date: "2025-12-02"
 categories: [quarto, zzcollab, reproducibility]
 description: "2-3 sentence summary."
-image: "media/images/hero.jpg"
+image: "media/images/hero.png"
 document-type: "blog"
 draft: false
 execute:
@@ -304,13 +304,13 @@ Copy images into the media directory and document
 their sources:
 
 ```bash
-cp ~/path/to/hero.jpg \
-  analysis/media/images/hero.jpg
+cp ~/path/to/hero.png \
+  analysis/media/images/hero.png
 
 cat > analysis/media/images/README.md << 'EOF'
 # Image Attribution
 
-## hero.jpg
+## hero.png
 - Source: Unsplash
 - Photographer: [Name]
 - Licence: Unsplash Licence
@@ -321,7 +321,7 @@ EOF
 Reference images in your post with relative paths:
 
 ```qmd
-![Alt text](media/images/hero.jpg){.img-fluid}
+![Alt text](media/images/hero.png){.img-fluid}
 
 *Caption with attribution.*
 ```
@@ -399,7 +399,7 @@ Common issues and fixes:
    tab character produces a parse error that does
    not always point to the offending line.
 3. **Absolute image paths break portability.** Always
-   use relative paths (`media/images/hero.jpg`),
+   use relative paths (`media/images/hero.png`),
    never absolute paths. Absolute paths work only on
    the machine where they were written.
 4. **The `draft` field defaults to `false` when
