@@ -10,7 +10,7 @@ description: >
   using ZZCOLLAB symlinks and Quarto metadata.
 image: "media/images/hero.png"
 document-type: "blog"
-draft: false
+draft: true
 execute:
   echo: true
   warning: false
@@ -232,7 +232,7 @@ project root or the author previews from
 `analysis/paper/`.
 
 ![An organised bookshelf with reference materials
-and a notebook](media/images/ambiance2.jpg
+and a notebook](media/images/ambiance2.png
 ){.img-fluid}
 
 *Proper directory structure prevents the most
@@ -257,7 +257,7 @@ categories: [quarto, zzcollab, reproducibility]
 description: "2-3 sentence summary."
 image: "media/images/hero.png"
 document-type: "blog"
-draft: false
+draft: true
 execute:
   echo: true
   warning: false
@@ -277,7 +277,7 @@ Key points:
   existing taxonomy.
 - The `description` field appears in blog listings;
   lead with the value proposition.
-- Set `draft: false` during development.
+- Set `draft: true` during development.
 
 ## Adapting Markdown to Quarto
 
@@ -403,7 +403,7 @@ Common issues and fixes:
    never absolute paths. Absolute paths work only on
    the machine where they were written.
 4. **The `draft` field defaults to `false` when
-   omitted.** If you forget to set `draft: false`,
+   omitted.** If you forget to set `draft: true`,
    your unfinished post appears on the public site
    after the next render.
 5. **Large images slow rendering and page load.**
@@ -412,7 +412,7 @@ Common issues and fixes:
    edges.
 
 ![A notebook with a completed checklist beside a
-cup of coffee](media/images/ambiance3.jpg
+cup of coffee](media/images/ambiance3.png
 ){.img-fluid}
 
 *A pre-publication checklist prevents common
@@ -459,7 +459,7 @@ deployment failures.*
   reconstructing attribution after the fact.
 - A missing `.img-fluid` class causes hero images
   to overflow their container on mobile devices.
-- Committing a post with `draft: false` by accident
+- Committing a post with `draft: true` by accident
   results in the post appearing live on the site
   before the metadata is corrected.
 - Quarto's error messages for broken image paths
