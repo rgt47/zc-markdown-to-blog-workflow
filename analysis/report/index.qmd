@@ -1,7 +1,7 @@
 ---
 title: "From Markdown to Blog Post: A ZZCOLLAB
   Conversion Workflow"
-author: "Ronald 'Ryy' G. Thomas"
+author: "Ronald G. Thomas"
 date: "2025-12-02"
 categories: [quarto, zzcollab-compendia, reproducibility]
 description: >
