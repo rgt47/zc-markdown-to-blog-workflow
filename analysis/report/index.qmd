@@ -10,7 +10,7 @@ description: >
   using ZZCOLLAB symlinks and Quarto metadata.
 image: "media/images/hero.png"
 document-type: "blog"
-draft: false
+draft: true
 execute:
   echo: true
   warning: false
