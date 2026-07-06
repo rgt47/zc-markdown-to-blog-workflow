@@ -2,7 +2,7 @@ Package: markdowntoblog
 Title: markdowntoblog Publishing
 Version: 0.0.0.9000
 Authors@R:
-    person("Your Name", email = "your.email@example.com", role = c("aut", "cre"))
+    person("Your Name", email = "rgthomas@ucsd.edu", role = c("aut", "cre"))
 Description: Academic publishing workspace for markdowntoblog with LaTeX and Quarto support.
     Includes tidyverse for analysis and complete publishing toolchain.
 License: GPL-3
