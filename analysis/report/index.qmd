@@ -49,11 +49,11 @@ from reaching the audience.
 
 More formally, this post documents the Document layer of the
 Workflow Construct described in
-[post 52](/posts/52-workflow-construct/), specifically the
+[A Workflow Construct for the Modern Data Scientist](../wf-construct-overview-anchor/), specifically the
 operation that promotes a standalone Markdown document into
 a published blog post within the ZZCOLLAB compendium. The
 broader compendium-tier pattern is documented in
-[post 29](/posts/29-setupquarto/); this post is the
+[Reproducible Blog Posts with ZZCOLLAB](../zc-quarto-compendium-intro/); this post is the
 conversion-specific complement, addressing the
 directory-structure, symlink, and YAML metadata work
 required to take an existing Markdown file and surface it
@@ -546,10 +546,8 @@ post.
 
 **Related posts:**
 
-- [ZZCOLLAB Blog Setup Guide](/posts/39-templatepost/templatepost/docs/ZZCOLLAB_BLOG_SETUP.md):
-  Comprehensive setup documentation
-- [Blog Post Template](/posts/39-templatepost/templatepost/analysis/report/index.qmd):
-  The template this workflow produces
+- [Blog Post Template](../zc-blog-post-template/):
+  The template this workflow produces, including its setup documentation
 
 **Key resources:**
 
