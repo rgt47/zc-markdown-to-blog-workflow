@@ -612,12 +612,12 @@ Feedback is welcome for:
 This post is part of the *ZZCOLLAB Reproducible Compendia* series.
 Recommended reading order:
 
-1. Post 01: [Reproducible Blog Posts with ZZCOLLAB](../01-zc-quarto-compendium-intro/)
-2. Post 02: [Constructing a reproducible blog post using zzcollab-compendia tools](../02-zc-blog-post-template/)
+1. Post 01: [Reproducible Blog Posts with ZZCOLLAB](../zc-quarto-compendium-intro/)
+2. Post 02: [Constructing a reproducible blog post using zzcollab-compendia tools](../zc-blog-post-template/)
 3. **Post 03: From Markdown to Blog Post: A ZZCOLLAB workflow** (this post)
-4. Post 04: [Sharing R Code via Docker: R Markdown Reports](../04-zc-share-rmd-via-docker/)
-5. Post 05: [A 55-Item Initiation Checklist for zzcollab-compendia Data Analyses](../05-zc-analysis-initiation-checklist/)
-6. Post 06: [Seven Required Elements for a zzc Manuscript report.Rmd](../06-zc-manuscript-report-elements/)
-7. Post 07: [A tiered CI strategy for zzcollab-compendia research compendia](../07-zc-tiered-ci-strategy/)
-8. Post 08: [GitHub Actions workflows for zzcollab-compendia research compendia](../08-zc-github-actions-workflows/)
+4. Post 04: [Sharing R Code via Docker: R Markdown Reports](../zc-share-rmd-via-docker/)
+5. Post 05: [A 55-Item Initiation Checklist for zzcollab-compendia Data Analyses](../zc-analysis-initiation-checklist/)
+6. Post 06: [Seven Required Elements for a zzc Manuscript report.Rmd](../zc-manuscript-report-elements/)
+7. Post 07: [A tiered CI strategy for zzcollab-compendia research compendia](../zc-tiered-ci-strategy/)
+8. Post 08: [GitHub Actions workflows for zzcollab-compendia research compendia](../zc-github-actions-workflows/)
 
