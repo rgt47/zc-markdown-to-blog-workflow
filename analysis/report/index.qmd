@@ -223,8 +223,9 @@ resolve correctly whether Quarto renders from the
 project root or the author previews from
 `analysis/paper/`.
 
-![An organised bookshelf with reference materials
-and a notebook](media/images/ambiance2.png
+![A plain typed page beside an identical page reformatted with
+headers, bullet points, and a pull-quote box drawn in
+red pen](media/images/ambiance2.jpg
 ){.img-fluid}
 
 *Proper directory structure prevents the most
@@ -404,7 +405,7 @@ Common issues and fixes:
    edges.
 
 ![A notebook with a completed checklist beside a
-cup of coffee](media/images/ambiance3.png
+cup of coffee](media/images/ambiance3.jpg
 ){.img-fluid}
 
 *A pre-publication checklist prevents common
