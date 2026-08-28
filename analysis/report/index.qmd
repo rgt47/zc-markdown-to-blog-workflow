@@ -57,7 +57,7 @@ broader compendium-tier pattern is documented in
 conversion-specific complement, addressing the
 directory-structure, symlink, and YAML metadata work
 required to take an existing Markdown file and surface it
-as a published artefact.
+as a published artifact.
 
 ## Motivations
 
@@ -123,7 +123,7 @@ The following tools are required before starting:
 syntax, basic command-line operations, and the
 concept of symlinks. No prior experience with
 ZZCOLLAB is required; this post covers
-initialisation from scratch.
+initialization from scratch.
 
 # What is the ZZCOLLAB Blog Workflow?
 
@@ -146,7 +146,7 @@ locations because symlinks exist in both directions.
 
 The workflow itself takes roughly 40 minutes from
 start to finish: five minutes for assessment,
-three for initialisation, one for symlink setup,
+three for initialization, one for symlink setup,
 ten for content conversion, five for media assets,
 three for metadata, five for testing, and two for
 committing.
@@ -411,7 +411,7 @@ cup of coffee](media/images/ambiance3.jpg
 *A pre-publication checklist prevents common
 deployment failures.*
 
-## Lessons Learnt
+## Lessons Learned
 
 ### Conceptual Understanding
 
@@ -486,7 +486,7 @@ deployment failures.*
 
 1. Create a shell script that automates the entire
    workflow: directory creation, ZZCOLLAB
-   initialisation, symlink setup, and YAML
+   initialization, symlink setup, and YAML
    template population from command-line arguments.
 2. Build a validation script that checks all image
    paths, verifies symlink integrity, and confirms
@@ -500,7 +500,7 @@ deployment failures.*
 5. Create a companion post covering the reverse
    workflow: extracting documentation from an
    existing blog post into a standalone reference.
-6. Implement automated image optimisation (resizing,
+6. Implement automated image optimization (resizing,
    compression) as part of the media asset pipeline.
 
 # Wrapping Up
@@ -554,7 +554,7 @@ post.
 
 - [ZZCOLLAB Framework](
   https://github.com/mygit/zzcollab-compendia):
-  Project initialisation and management
+  Project initialization and management
 - [Quarto Blog Guide](
   https://quarto.org/docs/websites/website-blog.html):
   Official Quarto blog documentation
