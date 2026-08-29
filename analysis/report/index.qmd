@@ -6,7 +6,7 @@ categories: [quarto, zzcollab-compendia, reproducibility]
 description: "A systematic workflow for converting standalone markdown documentation into professional blog posts using ZZCOLLAB symlinks and Quarto metadata."
 image: "media/images/hero.png"
 document-type: "blog"
-draft: true
+draft: false
 execute:
   echo: true
   warning: false
