@@ -26,8 +26,8 @@ reproducible, discoverable blog posts.*
 # Introduction
 
 Converting standalone markdown documentation into a
-professional blog post presents a common challenge:
-a well-written technical reference with working code
+professional blog post presents a common challenge.
+A well-written technical reference with working code
 examples and thorough coverage sits as a flat file
 on disk, invisible to anyone who might benefit from
 it.
@@ -53,8 +53,8 @@ Workflow Construct described in
 operation that promotes a standalone Markdown document into
 a published blog post within the ZZCOLLAB compendium. The
 broader compendium-tier pattern is documented in
-[Reproducible Blog Posts with ZZCOLLAB](../zc-quarto-compendium-intro/); this post is the
-conversion-specific complement, addressing the
+[Reproducible Blog Posts with ZZCOLLAB](../zc-quarto-compendium-intro/). This post is the
+conversion-specific complement. It addresses the
 directory-structure, symlink, and YAML metadata work
 required to take an existing Markdown file and surface it
 as a published artifact.
@@ -145,11 +145,16 @@ where it expects. Image paths like
 locations because symlinks exist in both directions.
 
 The workflow itself takes roughly 40 minutes from
-start to finish: five minutes for assessment,
-three for initialization, one for symlink setup,
-ten for content conversion, five for media assets,
-three for metadata, five for testing, and two for
-committing.
+start to finish, broken down as follows:
+
+- Assessment: five minutes
+- Initialization: three minutes
+- Symlink setup: one minute
+- Content conversion: ten minutes
+- Media assets: five minutes
+- Metadata: three minutes
+- Testing: five minutes
+- Committing: two minutes
 
 # Getting Started
 
